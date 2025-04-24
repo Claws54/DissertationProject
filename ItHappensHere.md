@@ -3,7 +3,8 @@ It Happens Here are a student-led society at Newcastle University that campaign 
 
 Instagram:
 [
-](https://www.instagram.com/ithappensherencl)
+](https://www.instagram.com/ithappensherencl)\
+
 https://www.instagram.com/ithappensherencl?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
 
 Website:
