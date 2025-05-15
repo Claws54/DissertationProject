@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campus Voices</title>
     <style>
-        .all-browsers {
+        html,
+        body {
             margin: 0;
+            padding: 0;
+            height: 100%;
+            /* Bellow is where you change the font style */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .all-browsers {
+            margin: 30px;
             padding: 5px;
-            background-color: lightgray;
+            background-color: rgb(193, 229, 244);
             text-align: center;
-            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 3px 14px 0 rgba(44, 33, 110, 0.4), 0 5px 5px 0 rgba(0, 33, 0, 0.2);
+            /* width: 100%; */
+        }
+
+        /* bellow is where the link style is changed */
+        a {
+            text-decoration: none;
+            color: rgb(100, 100, 238);
         }
 
         .all-browsers>h1,
         .browser {
-            margin: 10px;
+            margin: 50px;
             padding: 5px;
+            border-radius: 8px;
+            /* box-shadow: 0 3px 7px 0 rgba(217, 214, 233, 0.3), 0 3px 3px 0 rgba(0, 33, 0, 0.1); */
         }
 
         .browser {
-            background: white;
+            background: rgb(216, 238, 248);
         }
 
         .browser>h2,
@@ -30,27 +50,43 @@
         }
     </style>
 </head>
-
+<!-- COPYING ALL THE WEBSITE,  SHORTCUT 
+ 1. Command + A  
+ 2. Command + C 
+ Then go to Github, click on index.html, click on the edit tool (pencil top right)
+ 1. Command + A 
+ 2. Command + V -->
+<!-- To make comments or unmake them, Command + / -->
 <body>
 
     <article class="all-browsers">
-        <h1>Most Popular Browsers</h1>
+        <h1>Campus Voices</h1>
         <article class="browser">
-            <h2>Google Chrome</h2>
-            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular
-                web browser today!</p>
+            <h2>Documentary film</h2>
+            <p>This documentary film shares the stories of the student activists campaigning against sexual violence on
+                the Newcastle University campus. This is their story.</p>
         </article>
         <article class="browser">
-            <h2>Mozilla Firefox</h2>
+            <h2>Film</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/OSVXDKBsYNI?si=vYKRAqUYgF98Qmbk"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </article>
         <article class="browser">
-            <h2>Microsoft Edge</h2>
-            <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced
-                Internet Explorer.</p>
+            <h2>Where to find the data</h2>
+            <a href="#">Office for Students article</a><br>
+            <a href="#">It Happens Here report</a>
+        </article>
+        <article class="browser">
+            <h2>It Happens Here</h2>
+            <p>It Happens Here are a student-led society at Newcastle University that campaign against sexual violence
+                and harassment, and support student survivors. They have been chosen as participants for this film
+                project due to their campaign work on campus. Their previous campaign #DoBetterNCL lead to the
+                implementation of mandatory Consent and Actice Bystander training at the university and a reworking of
+                support and wellbeing for students.</p><br>
+            <a href="https://www.instagram.com/ithappensherencl">Instagram</a><br>
+            <a href="https://nusu.co.uk/activities/view-society/93">Website</a>
         </article>
     </article>
 
